@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap');
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #525252 transparent;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #525252;
+  border: 3px solid transparent;
+  border-radius: 25px;
+}
+
+*::selection {
+  background-color: rgba(157,89,210,1); /* Blue background for selected text */
+  color: rgba(40,40,40,1); /* Black text color for selected text */
+}
+
+html {
+    background-color:rgba(40,40,40,1);
+}
+
+body {
+  cursor: url('images/favicon.png'), auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 25px;
+}  
+.title{
+    margin-top: 0%;
+    margin-bottom: 2%;
+    background: rgb(252,244,49);
+    background: -moz-linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
+    background: linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcf431",endColorstr="#282828",GradientType=1);
+    background-repeat: no-repeat;
+    background-color:rgba(40,40,40,1);
+    color:#fff;
+    font-family: 'Tektur', cursive;
+    text-align: center;
+    font-size: 10vw;
+    border-radius: 25px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 25px;
+  font-family: 'Tektur', cursive;
+}
+
+nav a:hover {
+  background-color: #474747;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+main {
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+  .active {
+    background-color: #4caf4f4d;
+    border-radius: 25px;
+  }
+
+		/* Sociala medier */
+		.fab {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;}
+  
+      .fab:hover {
+      opacity: 0.7;}
+  
+      .fa-youtube {
+      background: #bb0000;
+      color: white;}
+  
+      .fa-twitch {
+      background: purple;
+      color: white;}
+              .fa-github {
+      background: black;
+      color: white;}
+  
+
+  footer {    
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+  }
+  input[type="checkbox"] {display: none;}
+  
+  .nextline{
+display: block;
+  }
+  
+ @media only screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+    
+    nav {
+      flex-direction: column;
+    }
+    
+    nav ul {
+      display: none;
+    }
+    
+    .menu-icon {
+      display: inline-block;
+      cursor: pointer;
+      padding: 5px;
+      color: #fff;
+    }
+    
+    .menu-icon:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    .menu-icon span {
+      display: block;
+      height: 2px;
+      width: 20px;
+      margin-bottom: 4px;
+      background-color: #fff;
+    }
+    
+    .menu {
+      display: none;
+      padding: 10px;
+      background-color: #333;
+    }
+    
+    .menu-toggle:checked + .menu{
+      padding: 10000000px;
+    }
+    input[type='checkbox']:checked + label + .menu {display: block;}
+ }
