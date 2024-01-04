@@ -49,3 +49,16 @@
               width: calc(100% - 20px); /* Single column per row on smallest screens */
           }
       }
+
+.Archived{
+  font-family: Georgia, serif;
+
+  letter-spacing: 6px;
+  word-spacing: 6px;
+  color: #FFE690;
+  font-weight: 700;
+  text-decoration: underline rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
