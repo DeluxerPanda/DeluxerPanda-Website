@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap');
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  src:    local(JetBrainsMonoNL Nerd Font Mono),
+          url("fonts/JetBrainsMonoNL_Nerd_Font_Mono.ttf") format("truetype");
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+}
 
 /* Works on Firefox */
 * {
@@ -51,7 +58,6 @@ header {
     background-repeat: no-repeat;
     background-color:rgba(40,40,40,1);
     color:#fff;
-    font-family: 'Tektur', cursive;
     text-align: center;
     font-size: 10vw;
     border-radius: 25px;
@@ -79,7 +85,6 @@ nav a {
   text-decoration: none;
   padding: 5px;
   border-radius: 25px;
-  font-family: 'Tektur', cursive;
 }
 
 nav a:hover {
