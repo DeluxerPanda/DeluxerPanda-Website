@@ -40,13 +40,15 @@ fetch(apiUrl)
                         projectBox.innerHTML += `      <a href="${latestRelease.assets[0].browser_download_url}" class="black-button">Ladda ner</a>`;
                     }                            
                     repositoriesList.appendChild(projectBox);
-                    projectBox.style.display = 'block'; // Show the project box after updating its content
+                    projectBox.style.display = 'block';
 
 
                     projectBox.innerHTML += `<p>${formattedDate}</p>`;
                 })
-                .catch(error => console.error(`Error fetching releases for ${repo.name}:`, error));
+                .catch(error =>  innerHTML+=`Error fetching releases for ${repo.name}:`, error
+                ,innerHTML+=`Go to https://github.com/${username}/${repo.name}/releases`);
             });
     })
     
-    .catch(error => console.error('Error fetching repositories:', error));
+    .catch(error =>  innerHTML+='Error fetching repositories:', error
+    ,innerHTML+=`Go to https://github.com/DeluxerPanda?tab=repositories`);
