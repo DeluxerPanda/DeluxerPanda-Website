@@ -44,11 +44,8 @@ fetch(apiUrl)
 
 
                     projectBox.innerHTML += `<p>${formattedDate}</p>`;
-                })
-                .catch(error =>  innerHTML+=`Error fetching releases for ${repo.name}:`, error
+                }).catch(error =>  innerHTML+=`Error fetching releases for ${repo.name}:`, error
                 ,innerHTML+=`Go to https://github.com/${username}/${repo.name}/releases`);
             });
-    })
-    
-    .catch(error =>  innerHTML+='Error fetching repositories:', error
+    }).catch(error =>  innerHTML+='Error fetching repositories:', error
     ,innerHTML+=`Go to https://github.com/DeluxerPanda?tab=repositories`);
