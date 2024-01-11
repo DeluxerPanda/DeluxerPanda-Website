@@ -15,7 +15,7 @@
     width: calc(33.33% - 20px); /* Tre kolumner per rad */
     transition: background-color 0.3s ease-in-out;
 }
-.black-button {
+.button {
   display: inline-block;
   padding: 10px 20px;
   margin: 5px;
@@ -27,13 +27,13 @@
   cursor: pointer;
 }
 
-.black-button {
+.button {
   background-color: #333;
   color: #fff;
   border: none;
 }
 
-.black-button:hover {
+.button:hover {
   background-color: #555;
   color: #fff;
 }
@@ -49,14 +49,6 @@
               width: calc(100% - 20px); /* Single column per row on smallest screens */
           }
       }
-
-.Archived{  
-  letter-spacing: 6px;
-  word-spacing: 6px;
-  color: #FFE690;
-  font-weight: 700;
-  text-decoration: underline rgb(68, 68, 68);
-  font-style: normal;
-  font-variant: small-caps;
-  text-transform: uppercase;
-}
+      .Archived{  
+        background-color: #ff909087;
+      }
