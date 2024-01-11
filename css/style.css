@@ -135,48 +135,10 @@ nav a:hover {
     border-radius: 25px;
     display: block;
   }
-  input[type="checkbox"] {display: none;}
+
   
  @media only screen and (max-width: 600px) {
     header {
       padding: 10px;
     }
-    
-    nav {
-      flex-direction: column;
-    }
-    
-    nav ul {
-      display: none;
-    }
-    
-    .menu-icon {
-      display: inline-block;
-      cursor: pointer;
-      padding: 5px;
-      color: #fff;
-    }
-    
-    .menu-icon:hover {
-      background-color: rgba(255, 255, 255, 0.3);
-    }
-    
-    .menu-icon span {
-      display: block;
-      height: 2px;
-      width: 20px;
-      margin-bottom: 4px;
-      background-color: #fff;
-    }
-    
-    .menu {
-      display: none;
-      padding: 10px;
-      background-color: #333;
-    }
-    
-    .menu-toggle:checked + .menu{
-      padding: 10000000px;
-    }
-    input[type='checkbox']:checked + label + .menu {display: block;}
  }
