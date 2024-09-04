@@ -1,0 +1,74 @@
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch; /* Add this line */
+    margin-top: 30px;
+}
+
+.project-box {
+    background-color: #525252;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(33.33% - 20px); /* Three columns per row */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #4caf4f4d;
+    color: #fff;
+    border: none;
+}
+
+.button:hover {
+  background-color: #474747;
+    color: #fff;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .project-box {
+        width: calc(50% - 20px); /* Two columns per row on smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-box {
+        width: calc(100% - 20px); /* Single column per row on smallest screens */
+    }
+}
+
+.Archived {
+    background-color: #ff909087;
+}
+.button-Archived {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: #ff00003e;
+  color: #fff;
+  border: none;
+}
+
+.button-Archived:hover {
+background-color: #474747;
+  color: #fff;
+}

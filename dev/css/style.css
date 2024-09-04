@@ -1,0 +1,70 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #525252 transparent;
+
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+html {
+  background-color:rgba(40,40,40,1);
+}
+
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.title{
+    margin-top: 0%;
+    margin-bottom: 2%;
+    background: rgb(252,244,49);
+    background: -moz-linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
+    background: linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcf431",endColorstr="#282828",GradientType=1);
+    background-repeat: no-repeat;
+    background-color:rgba(40,40,40,1);
+    color:#fff;
+    text-align: center;
+    font-size: 10vw;
+    border-radius: 25px;
+}
+
+  .active {
+    background-color: #4caf4f4d;
+    border-radius: 25px;
+  }
+
+		/* Sociala medier */
+		.fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;}
+  
+      .fa:hover {
+      opacity: 0.7;}
+  
+  footer {    
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    display: block;
+  }
+
+  
+ @media only screen and (max-width: 600px) {
+    header {
+      padding: 10px;
+    }
+ }

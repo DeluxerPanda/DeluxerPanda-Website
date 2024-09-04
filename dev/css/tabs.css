@@ -1,0 +1,44 @@
+
+
+        
+        .boby {
+        width: 100%;
+        padding: 20px;
+        order: 1;
+        display: none; 
+        background-color:rgba(40,40,40,1);}
+
+        .menu-box input[type='radio']:checked + label + .boby {display: block;}
+     
+        .menu-box input[type="radio"]:checked + label {
+                background-color: #4caf4f4d; 
+                 border-radius: 25px;
+                }
+
+        .menu-box {
+
+        display: flex;
+        background-color: #333;
+        flex-wrap: wrap;
+        }
+        
+        .menu-box input[type="radio"] {display: none;}
+     
+        .menu-box label {
+        padding: 8px;
+        color: #fff;
+        text-decoration: none;}
+     
+        .menu-box label:hover {
+        background-color: #474747;
+        border-radius: 25px;
+        }
+
+     
+   
+     
+        /*Text*/
+        .center-text {text-align: center;}
+        
+
+              
