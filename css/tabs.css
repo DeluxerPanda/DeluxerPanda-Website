@@ -18,8 +18,9 @@
 .menu-box {
         border-radius: 25px;
         display: flex;
-        margin-left: 321px;
-        margin-right: 321px;
+        /* margin-left: 321px;
+        margin-right: 321px; */
+        margin-inline: auto;
         background-color: rgba(40, 40, 40, 0.459);
         flex-wrap: wrap;
         margin-bottom: 2%;
