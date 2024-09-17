@@ -10,68 +10,78 @@
 
 
 *::selection {
-  background-color: rgba(157,89,210,1); /* Blue background for selected text */
-  color: rgba(40,40,40,1); /* Black text color for selected text */
+  background-color: rgba(157, 89, 210, 1);
+  /* Blue background for selected text */
+  color: rgba(40, 40, 40, 1);
+  /* Black text color for selected text */
 }
 
 html {
-  background-color:rgba(40,40,40,1);
+  background: linear-gradient(to bottom, rgb(253, 219, 0), rgb(238, 212, 143), rgb(255, 255, 255) 30%, rgb(255, 255, 255), rgb(255, 255, 255) 36%, rgb(212, 181, 222), rgb(156, 92, 212), rgb(88, 50, 96), rgb(0, 0, 0));
+  --color-0: #fddb00;
+  --color-1: #ffffff;
+  --color-2: #9c5cd4;
+  --color-3: #000000;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 header {
-  background-color: #333;
+  background-color: #33333373;
+  text-align: center;
+  border-radius: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+  margin-bottom: -60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: fit-content;
+}
+
+.title {
+  color: #e7e8e9;
+  text-align: center;
+  font-size: 110px;
+}
+
+.active {
+  background-color: #4caf4f7c;
+  border-radius: 25px;
+}
+
+/* Sociala medier */
+.fa {
   padding: 20px;
-  padding-bottom: 1px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+footer {
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  width: fit-content;
+  background-color: #3333337a;
+  color: #fff;
+  padding: 20px;
   text-align: center;
 }
 
-.title{
-    margin-top: 0%;
-    margin-bottom: 2%;
-    background: rgb(252,244,49);
-    background: -moz-linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
-    background: linear-gradient(180deg, rgba(252,244,49,1) 0%, rgba(157,89,210,1) 50%, rgba(40,40,40,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcf431",endColorstr="#282828",GradientType=1);
-    background-repeat: no-repeat;
-    background-color:rgba(40,40,40,1);
-    color:#fff;
-    text-align: center;
-    font-size: 10vw;
-    border-radius: 25px;
+
+@media only screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
 }
-
-  .active {
-    background-color: #4caf4f4d;
-    border-radius: 25px;
-  }
-
-		/* Sociala medier */
-		.fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 30px;
-      text-align: center;
-      text-decoration: none;
-      margin: 5px 2px;
-      border-radius: 50%;}
-  
-      .fa:hover {
-      opacity: 0.7;}
-  
-  footer {    
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    border-radius: 25px;
-    display: block;
-  }
-
-  
- @media only screen and (max-width: 600px) {
-    header {
-      padding: 10px;
-    }
- }
