@@ -1,0 +1,233 @@
+<div id="title">
+<h1>DeluxerPanda</h1>
+<hr>
+<h2>Väkommen till min hemsida!</h2>
+</div>
+
+<div class="content">
+<p>Här kan du se alla mina olika projekt</p>
+</div>
+<div id="project-container">
+
+    <div class="projekt-box">
+
+        <h2>NÄrvaro DV</h2>
+        <p>En web baserad Närvaro lista för Daglig Verksamhet </p>
+        <a href="https://github.com/DeluxerPanda/NarvaroDV" class="button">GitHub</a>
+        <a href="https://narvarodv.deluxerpanda.se/" class="button">Besök</a>
+    
+    </div>
+
+<div class="projekt-box">
+
+    <h2>GiveMeSomeLight</h2>
+    <p>Minecraft Fabric mod that give you light if you holding torch for exempel </p>
+    <a href="https://github.com/DeluxerPanda/GiveMeSomeLight" class="button">GitHub</a>
+    <a href="https://modrinth.com/mod/givemesomelight" class="button">Ladda ner (Modrinth)</a> 
+
+</div>
+
+<div class="projekt-box">
+
+    <h2>Short Message Service</h2>
+    <p>Schedule your messages to be sent daily, weekly, monthly, or yearly </p>
+    <a href="https://github.com/DeluxerPanda/Short_Message_Service" class="button">GitHub</a>
+    <a href="https://github.com/DeluxerPanda/Short_Message_Service/releases/latest" class="button">Ladda ner
+      (GitHub)</a>
+
+</div>
+
+<div class="projekt-box">
+
+    <h2>Delux dwm</h2>
+    <p>My dwm setup in Arch BTW</p>
+    <a href="https://github.com/DeluxerPanda/Delux-dwm" class="button">GitHub</a>
+
+</div>
+
+<div class="projekt-box">
+
+    <h2>Retro Delux</h2>
+    <p>A pong game made in lua using LÖVE</p>
+    <a href="https://github.com/DeluxerPanda/Retro-Delux" class="button">GitHub</a>
+    <a href="https://github.com/DeluxerPanda/Retro-Delux/releases" class="button">Ladda ner (GitHub)</a>
+
+</div>
+
+<div class="projekt-box">
+
+    <h2>DeluxerPanda.se</h2>
+    <p>Denna sida är helt gjord i endast html och css och med fullt fungerande flikar utan användning av ID:n
+      eller javascript </p>
+    <a href="https://github.com/DeluxerPanda/DeluxerPanda.se" class="button">GitHub</a>
+    <a href="https://deluxerpanda.github.io/DeluxerPanda.se/" class="button">Besök</a>
+
+</div>
+
+<div class="projekt-box">
+
+    <h2>Server Uptime</h2>
+    <p>Minecraft server plugin - Check how long the server has been running</p>
+    <a href="https://github.com/DeluxerPanda/ServerUptime" class="button">GitHub</a>
+    <a href="https://github.com/DeluxerPanda/ServerUptime/releases" class="button">Ladda ner (GitHub)</a>
+    <a href="https://modrinth.com/plugin/serveruptime" class="button">Ladda ner (Modrinth)</a>
+
+</div>
+
+<div class="projekt-box">
+
+    <h2>Auto Clicker</h2>
+    <p><mark style="background-color:#ff00003e; padding-inline:5px;  border-radius: 45px;">(Detta projekt arbetas inte på längre)</mark></p>
+    <p>Auto-Clicker gui-program. som klickar en gång efter en viss tid</p>
+    <a href="https://github.com/DeluxerPanda/Auto-Clicker" class="button">GitHub</a>
+
+</div>
+
+<div class="projekt-box">
+
+    <h2>Text To Speech</h2>
+    <p><mark style="background-color:#ff00003e; padding-inline:5px;  border-radius: 45px;">(Detta projekt arbetas inte på längre)</mark></p>
+    <p>Text Till Tal Chrome-tillägg</p>
+    <a href="https://github.com/DeluxerPanda/Text_To_Speech" class="button">GitHub</a>
+
+</div>
+
+
+</div>
+
+<style>
+.content {
+    margin: 10px;
+    padding: 20px;
+    margin-inline: auto;
+    text-align: center;
+    background-color: hsla(220, 16%, 22%, 0.700);
+    border-radius: 45px;
+    width: fit-content;
+
+}
+
+.projekt-box{
+    background-color: hsla(220, 16%, 22%, 0.700);;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(33.33% - 20px);
+    /* Three columns per row */
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+ #project-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 30px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #434c5e;
+    color: #fff;
+    border: none;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    color: #88c0d0;
+    font-size: 32px;
+    font-weight: bold;
+}
+.projekt-box p {
+    font-size: 20px;
+}
+.projekt-box h2 {
+    margin: 0;
+}
+#title {
+    width: fit-content;
+    padding-top: 10px;
+    margin-inline: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: hsla(220, 16%, 22%, 0.700);
+    border-radius: 45px;
+    padding-bottom: 10px;
+}
+#title h1{
+    margin: 0;
+    padding: 0;
+    color: #88c0d0;
+    font-size: 64px;
+    font-weight: bold;
+}
+#title h2{
+    margin: 0;
+    padding: 0;
+    color: #88c0d0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+#title h1{
+    margin: 0;
+    padding: 0;
+    color: #88c0d0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#title h2{
+    margin: 0;
+    padding: 0;
+    color: #88c0d0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+p {
+    margin: 0;
+    padding: 0;
+    color: #88c0d0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.projekt-box p {
+    font-size: 15px;
+}
+.projekt-box h2 {
+    font-size: 10px;
+}
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #4caf4f4d;
+    color: #fff;
+    border: none;
+}
+}
+</style>
