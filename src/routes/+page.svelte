@@ -12,7 +12,7 @@
     <div class="projekt-box">
 
         <h2>NÄrvaro DV</h2>
-        <p>En web baserad Närvaro lista för Daglig Verksamhet </p>
+        <p>En web baserad Närvaro lista</p>
         <a href="https://github.com/DeluxerPanda/NarvaroDV" class="button">GitHub</a>
         <a href="https://narvarodv.deluxerpanda.se/" class="button">Besök</a>
     
@@ -37,13 +37,13 @@
 
 </div>
 
-<div class="projekt-box">
+<!-- <div class="projekt-box">
 
-    <h2>Delux dwm</h2>
+    <h2>Arch configs</h2>
     <p>My dwm setup in Arch BTW</p>
     <a href="https://github.com/DeluxerPanda/Delux-dwm" class="button">GitHub</a>
 
-</div>
+</div> -->
 
 <div class="projekt-box">
 
@@ -73,29 +73,62 @@
     <a href="https://modrinth.com/plugin/serveruptime" class="button">Ladda ner (Modrinth)</a>
 
 </div>
+</div>
+
+<div class="content">
+    <p>Forks</p>
+</div>
+
+<div id="fork-container">
+
+    <div class="projekt-box">
+
+        <h2>DWM</h2>
+        <p>Min DWM</p>
+        <a href="https://github.com/DeluxerPanda/dwm" class="button">GitHub</a>
+    
+    </div>
 
 <div class="projekt-box">
 
-    <h2>Auto Clicker</h2>
-    <p><mark style="background-color:#ff00003e; padding-inline:5px;  border-radius: 45px;">(Detta projekt arbetas inte på längre)</mark></p>
-    <p>Auto-Clicker gui-program. som klickar en gång efter en viss tid</p>
-    <a href="https://github.com/DeluxerPanda/Auto-Clicker" class="button">GitHub</a>
+    <h2>SlStatus</h2>
+    <p>Min SlStatus</p>
+    <a href="https://github.com/DeluxerPanda/slstatus" class="button">GitHub</a>
 
 </div>
-
-<div class="projekt-box">
-
-    <h2>Text To Speech</h2>
-    <p><mark style="background-color:#ff00003e; padding-inline:5px;  border-radius: 45px;">(Detta projekt arbetas inte på längre)</mark></p>
-    <p>Text Till Tal Chrome-tillägg</p>
-    <a href="https://github.com/DeluxerPanda/Text_To_Speech" class="button">GitHub</a>
-
 </div>
 
+<div class="content">
+    <p>Arkiverat</p>
+<mark>(Dom här projekten arbetas inte på längre)</mark>
+</div>
+<div id="arcive-container">
 
+    <div class="projekt-box">
+
+        <h2>Auto Clicker</h2>
+        <p>Auto-Clicker gui-program. som klickar en gång efter en viss tid</p>
+        <a href="https://github.com/DeluxerPanda/Auto-Clicker" class="button">GitHub</a>
+    
+    </div>
+    
+    <div class="projekt-box">
+    
+        <h2>Text To Speech</h2>
+        <p>Text Till Tal Chrome-tillägg</p>
+        <a href="https://github.com/DeluxerPanda/Text_To_Speech" class="button">GitHub</a>
+    
+    </div>
 </div>
 
 <style>
+    mark{
+        background-color:#ff00003e; 
+        padding-inline:5px; 
+        border-radius: 45px; 
+        font-size: 14px;
+
+    }
 .content {
     margin: 10px;
     padding: 20px;
@@ -121,6 +154,22 @@
 }
 
  #project-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 30px;
+}
+#fork-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 30px;
+}
+#arcive-container{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
