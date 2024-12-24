@@ -5,7 +5,9 @@
         number++
     }
     function countMinus() {
-        number--
+        if (number != 0) {
+            number--
+    }
     }
     function countReset() {
         number = 0
