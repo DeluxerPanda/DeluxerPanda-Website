@@ -131,7 +131,16 @@
         <a href="https://github.com/DeluxerPanda/Auto-Clicker" class="button">GitHub</a>
     
     </div>
+
+    <div class="projekt-box">
     
+        <h2>Sweets For The Cannibals</h2>
+        <h1 class="label">Hemsida</h1>
+        <p>A blend between synth Pop and different experimental music</p>
+        <a href="https://github.com/DeluxArkive/Sweets-For-The-Cannibals" class="button">GitHub</a>
+    
+    </div>
+
     <div class="projekt-box">
     
         <h2>Text To Speech</h2>
