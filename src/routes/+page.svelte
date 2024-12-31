@@ -12,6 +12,7 @@
 
     <div class="projekt-box">
         <h2>Den här hemsidan</h2>
+        <h1 class="label">Hemsida</h1>
         <p>Här kan du se all kod för denna hemsida</p>
         <a href="https://github.com/DeluxerPanda/DeluxerPanda-Website" class="button">GitHub</a>
     </div>
@@ -22,6 +23,7 @@
     <div class="projekt-box">
 
         <h2>NÄrvaro DV</h2>
+        <h1 class="label">Hemsida</h1>
         <p>En web baserad Närvaro lista</p>
         <a href="https://github.com/DeluxerPanda/NarvaroDV" class="button">GitHub</a>
         <a href="https://narvarodv.deluxerpanda.se/" class="button">Besök</a>
@@ -31,7 +33,8 @@
 <div class="projekt-box">
 
     <h2>GiveMeSomeLight</h2>
-    <p>Minecraft Fabric mod that give you light if you holding torch for exempel </p>
+    <h1 class="label">Minecraft client Fabric mod</h1>
+    <p>Ger dig ljus om du håller i en fackla till exempel</p>
     <a href="https://github.com/DeluxerPanda/GiveMeSomeLight" class="button">GitHub</a>
     <a href="https://modrinth.com/mod/givemesomelight" class="button">Ladda ner (Modrinth)</a> 
 
@@ -40,7 +43,8 @@
 <div class="projekt-box">
 
     <h2>Short Message Service</h2>
-    <p>Schedule your messages to be sent daily, weekly, monthly, or yearly </p>
+    <h1 class="label">Android app</h1>
+    <p>Schemalägg dina meddelanden dagligen, veckovis, månadsvis eller årligen </p>
     <a href="https://github.com/DeluxerPanda/Short_Message_Service" class="button">GitHub</a>
     <a href="https://github.com/DeluxerPanda/Short_Message_Service/releases/latest" class="button">Ladda ner
       (GitHub)</a>
@@ -58,6 +62,7 @@
 <div class="projekt-box">
 
     <h2>Retro Delux</h2>
+    <h1 class="label">Spel</h1>
     <p>A pong game made in lua using LÖVE</p>
     <a href="https://github.com/DeluxerPanda/Retro-Delux" class="button">GitHub</a>
     <a href="https://github.com/DeluxerPanda/Retro-Delux/releases" class="button">Ladda ner (GitHub)</a>
@@ -67,7 +72,8 @@
 <div class="projekt-box">
 
     <h2>DeluxerPanda.se</h2>
-    <p>Denna sida är helt gjord i endast html och css och med fullt fungerande flikar utan användning av ID:n
+    <h1 class="label">Hemsida</h1>
+    <p>En sida helt gjord endast med html och css och med fullt fungerande flikar utan användning av ID:n
       eller javascript </p>
     <a href="https://github.com/DeluxerPanda/DeluxerPanda.se" class="button">GitHub</a>
     <a href="https://deluxerpanda.github.io/DeluxerPanda.se/" class="button">Besök</a>
@@ -77,7 +83,8 @@
 <div class="projekt-box">
 
     <h2>Server Uptime</h2>
-    <p>Minecraft server plugin - Check how long the server has been running</p>
+    <h1 class="label">Minecraft server plugin</h1>
+    <p>Kontrollera hur länge servern har varit igång</p>
     <a href="https://github.com/DeluxerPanda/ServerUptime" class="button">GitHub</a>
     <a href="https://github.com/DeluxerPanda/ServerUptime/releases" class="button">Ladda ner (GitHub)</a>
     <a href="https://modrinth.com/plugin/serveruptime" class="button">Ladda ner (Modrinth)</a>
@@ -94,7 +101,8 @@
     <div class="projekt-box">
 
         <h2>DWM</h2>
-        <p>Min DWM</p>
+        <h1 class="label">Linux</h1>
+        <p>En dynamisk fönsterhanterare för X11.</p>
         <a href="https://github.com/DeluxerPanda/dwm" class="button">GitHub</a>
     
     </div>
@@ -102,7 +110,8 @@
 <div class="projekt-box">
 
     <h2>SlStatus</h2>
-    <p>Min SlStatus</p>
+    <h1 class="label">Linux</h1>
+    <p>En status bar för DWM</p>
     <a href="https://github.com/DeluxerPanda/slstatus" class="button">GitHub</a>
 
 </div>
@@ -117,7 +126,8 @@
     <div class="projekt-box">
 
         <h2>Auto Clicker</h2>
-        <p>Auto-Clicker gui-program. som klickar en gång efter en viss tid</p>
+        <h1 class="label">Program</h1>
+        <p>gui-program som klickar en gång efter en viss tid</p>
         <a href="https://github.com/DeluxerPanda/Auto-Clicker" class="button">GitHub</a>
     
     </div>
@@ -125,6 +135,7 @@
     <div class="projekt-box">
     
         <h2>Text To Speech</h2>
+        <h1 class="label">Chrome-tillägg</h1>
         <p>Text Till Tal Chrome-tillägg</p>
         <a href="https://github.com/DeluxerPanda/Text_To_Speech" class="button">GitHub</a>
     
@@ -170,6 +181,15 @@
     justify-content: center;
     align-items: stretch;
     margin-top: 30px;
+}
+.label{
+    display: inline;
+    font-size: 16px;
+    color: #ebcb8b;
+    background-color: #434c5e;
+    border-radius: 20px;
+    padding-inline: 10px;
+    width: fit-content;
 }
 #fork-container{
     display: flex;
