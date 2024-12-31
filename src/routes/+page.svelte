@@ -7,7 +7,17 @@
 <div class="content">
 <p>Här kan du se alla mina olika projekt</p>
 </div>
-<div id="project-container">
+
+<div class="project-container">
+
+    <div class="projekt-box">
+        <h2>Den här hemsidan</h2>
+        <p>Här kan du se all kod för denna hemsida</p>
+        <a href="https://github.com/DeluxerPanda/DeluxerPanda-Website" class="button">GitHub</a>
+    </div>
+</div>
+
+<div class="project-container">
 
     <div class="projekt-box">
 
@@ -153,7 +163,7 @@
 
 }
 
- #project-container{
+ .project-container{
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
