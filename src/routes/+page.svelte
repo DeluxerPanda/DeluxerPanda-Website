@@ -138,7 +138,7 @@
         <h1 class="label">Hemsida</h1>
         <p>A blend between synth Pop and different experimental music</p>
         <a href="https://github.com/DeluxArkive/Sweets-For-The-Cannibals" class="button">GitHub</a>
-    
+        <a href="sweets-for-the-cannibals.deluxerpanda.se" class="button">Besök</a>
     </div>
 
     <div class="projekt-box">
