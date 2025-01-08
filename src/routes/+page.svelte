@@ -142,7 +142,7 @@ mark{
     background-color:#ff00003e; 
     padding-inline:5px; 
     border-radius: 45px; 
-    font-size: 14px;
+    font-size: 13px;
 }
 .content {
     margin: 10px;
@@ -177,7 +177,8 @@ mark{
     margin-top: 30px;
 }
 .label{
-    display: inline;
+    display: block;
+    margin-inline: auto;
     font-size: 16px;
     color: #ebcb8b;
     background-color: #434c5e;
