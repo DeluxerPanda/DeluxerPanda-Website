@@ -281,7 +281,9 @@ p {
     font-size: 1rem;
     font-weight: bold;
 }
-
+.projekt-box{
+    width: calc(33.33% - -33vh);
+}
 .projekt-box p {
     font-size: 15px;
 }
