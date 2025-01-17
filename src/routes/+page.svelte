@@ -94,19 +94,27 @@
 <div id="fork-container">
 
     <div class="projekt-box">
+        <h2>St</h2>
+        <h1 class="label">Linux</h1>
+        <a href="https://github.com/DeluxerPanda/st" class="button">GitHub</a>
+        <p>Forked från: <br> sucksless</p><a href="https://st.suckless.org/" class="button">Repository</a>
+    </div>
+
+    <div class="projekt-box">
         <h2>DWM</h2>
         <h1 class="label">Linux</h1>
-        <p>En dynamisk fönsterhanterare för X11.</p>
         <a href="https://github.com/DeluxerPanda/dwm" class="button">GitHub</a>
+        <p>Forked från: <br> sucksless</p><a href="https://dwm.suckless.org/" class="button">Repository</a>
     </div>
 
     <div class="projekt-box">
         <h2>SlStatus</h2>
         <h1 class="label">Linux</h1>
-        <p>En status bar för DWM</p>
         <a href="https://github.com/DeluxerPanda/slstatus" class="button">GitHub</a>
+        <p>Forked från: <br> sucksless</p><a href="https://tools.suckless.org/slstatus/" class="button">Repository</a>
     </div>
 </div>
+
 
 <div class="content">
     <p>Arkiverat</p>
