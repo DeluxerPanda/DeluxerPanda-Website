@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 html{
@@ -26,26 +27,13 @@ html{
     /* width: 500px; */
 }
 
-a{
-    display: inline-block;
-    color: #fff;
-    text-decoration: none;
-    background-color: #434c5e;
-    border-radius: 20px;
-    padding-inline: 10px;
-    padding: 10px 20px;
-    margin-top: 5px;
-}
-a:hover{
-    color: rgba(255, 255, 255, 0.444);
-}
 p{
     color: #88c0d0;
 }
 .infoText{
     margin-inline: auto;
-    margin-top: 5px;
-    margin-bottom: 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     font-size: 16px;
     color: #ebcb8b;
     background-color: #434c5e;
@@ -78,6 +66,21 @@ p{
     justify-content: center; 
     align-items: center;
 }
+
+.item .links a{
+    display: inline-block;
+    color: #fff;
+    background-color: #434c5e;
+    border-radius: 20px;
+    padding-inline: 10px;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+
+.item .links a:hover{
+    color: rgba(255, 255, 255, 0.444);
+}
+
 .kategori{
     margin-inline: auto;
     margin-top: 5px;
@@ -88,4 +91,17 @@ p{
     border-radius: 20px;
     padding-inline: 10px;
     width: fit-content;
+}
+
+li a{
+    background-color: #434c5e;
+    color: #fff;
+    border-radius: 20px;
+    padding-inline: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    width: fit-content;
+}
+li a:hover{
+    color: rgba(255, 255, 255, 0.444);
 }
