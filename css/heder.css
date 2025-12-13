@@ -1,0 +1,63 @@
+#heder_container {
+  text-align: center;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  gap: 26px;
+  margin-inline: auto;
+  background-color: #FFF6E3;
+  border: 5px solid #cdc1ff;
+  border-radius: 26px;
+  padding: 10px;
+}
+
+div#heder_title h1{
+  margin: 0;
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div#heder_title h2{
+  margin: 0;
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}
+div#heder_links  button{
+  background-color: #FFCCEA;
+  border: none;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+div#heder_links  button:hover, div#heder_menu  button:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+  background-color: #a4cbd8;
+}
+
+div#heder_menu button {
+  background-color: #FFCCEA; 
+  font-weight: bolder;
+  border: none;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+div#heder_menu button:checked {
+  background-color: #a4cbd8;
+}
+
+
+ svg:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
