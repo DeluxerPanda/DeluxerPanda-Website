@@ -1,0 +1,15 @@
+body {
+  background-color: #BFECFF;
+}
+
+div#main_container {
+  margin-top: 20px;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  gap: 26px;
+  margin-inline: auto;
+  background-color: #FFF6E3;
+  border: 5px solid #cdc1ff;
+  border-radius: 26px;
+  padding: 10px;
+}
