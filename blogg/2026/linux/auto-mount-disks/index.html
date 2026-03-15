@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-title" content="DeluxerPanda" />
+  <meta name="description" content="Välkommen till min Hemsida - Här kan du hitta mina projekt" />
+  <link rel="icon" type="image/png" href="../../../../favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="../../../../favicons/favicon.svg"/>
+  <link rel="shortcut icon" href="../../../../favicons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../../favicons/apple-touch-icon.png" />
+  <link rel="manifest" href="../../../../favicons/site.webmanifest" />
+  <link rel="stylesheet" href="../../../../css/style.css">
+  <link rel="stylesheet" href="../../../../css/heder.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <title>DeluxerPanda - Blogg: Automontera diskar i Linux</title>
+</head>
+<body>
+    <div id="main_container">
+    <h1>Automontera diskar i Linux</h1>
+    <p>Denna Blogg handlar om hur man automatiskt monterar diskar i Linux.</p>
+    <h2>Introduktion</h2>
+    <p>Ladda ner <b>gnome-disk-utility</b> ifrån din pakethanterare.</p>
+    <p>Öppna <b>gnome-disk-utility</b> och välj den disk du vill auto-mounta.</p>
+    <img src="img/gnome-disk-utility.png" alt="Gnome Disk Utility" width="990" height="690">
+
+    <p>Klicka på <b>"additional partition options"</b> och välj <b>"Edit Mount Options"</b>.</p>
+    <img src="img/edit-mount-options.png" alt="Edit Mount Options" width="990" height="690">
+
+    <p>Av markera <b>"User Session Defaults"</b></p>
+    <p>Om du vill använda disken för exempelvis steam spel lägg till <b>",exec"</b> efter <b>"nosuid,nodev,nofail,x-gvfs-show"</b>
+      <br> så det blir <b>"nosuid,nodev,nofail,x-gvfs-show,exec"</b></p>
+
+      <p>Ange vart du disken ska ha sina filer exempelvis <b>/mnt/disk</b>
+      <br> När du är klar klicka på <b>"ok"</b></p>
+    <img src="img/user-session-defaults.png" alt="User Session Defaults" width="990" height="690" style="padding: 10px;">
+
+    <p>klicka på pilen som heter <b>"Mount selected partition"</b> och kolla sedan i din filhanterare. Om allt ser bra ut!</p>
+
+    <p>Om allt ser bra ut kan du starta om din dator. Så ska disken automatiskt monteras.</p>
+    <img src="img/mount-selected-partition.png" alt="Mount Selected Partition" width="990" height="690" style="padding: 10px;">
+    </div>
+</body>
+</html>
